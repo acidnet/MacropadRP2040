@@ -17,7 +17,7 @@ app = {                # REQUIRED dict, must be named 'app'
         # 2nd row ----------
         (0x202000, 'Home', [Keycode.ALT, Keycode.HOME]),
         (0x000020, 'CL-tab', [Keycode.CONTROL, 'w']),
-        (0x002000, 'CL-win', [Keycode.ALT, Keycode.SHIFT, 'w']),
+        (0x002000, 'CL-win', [Keycode.CONTROL, Keycode.SHIFT, 'w']),
         # 3rd row ----------
         (0x800000, 'History', [Keycode.CONTROL, 'h']),
         (0x202000, ' DL', [Keycode.CONTROL, 'j']),
