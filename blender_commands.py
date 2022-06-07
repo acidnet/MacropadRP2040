@@ -11,20 +11,20 @@ app = {
     'macros' : [
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x0A3B66, 'Search', [Keycode.F3]),
-        (0x663F00, 'Render', [Keycode.F12]),
-        (0x000000, 'RenderA', [Keycode.CONTROL, Keycode.F12]),
+        (0xCC5500, 'Search', [Keycode.F3]),
+        (0xCC5500, 'Render', [Keycode.F12]),
+        (0xCC5500, 'RenderA', [Keycode.CONTROL, Keycode.F12]),
         # 2nd row ----------
-        (0x663F00, 'Vertex', ['1']),
-        (0x660556, 'Edge', ['2']),
-        (0x663F00, 'Face', ['3']),
+        (0xCC5500, 'Vertex', ['1']),
+        (0x000040, 'Edge', ['2']),
+        (0xCC5500, 'Face', ['3']),
         # 3rd row ----------
-        (0x0A3B66, 'Gizmos', [Keycode.CONTROL,'`']),
-        (0x663F00, 'Walk/fly', [Keycode.SHIFT, '`']),
-        (0x0A3B66, 'adjust', [Keycode.F9]),
+        (0xCC5500, 'Gizmos', [Keycode.CONTROL,'`']),
+        (0x000040, 'Walk/fly', [Keycode.SHIFT, '`']),
+        (0xCC5500, 'adjust', [Keycode.F9]),
         # 4th row ----------
-        (0x660556, 'Open', [Keycode.CONTROL, 'o']),
-        (0x20660A, 'Save', [Keycode.CONTROL, 's']),
-        (0x20660A, 'New', [Keycode.CONTROL, 'n'])
+        (0xCC5500, 'Open', [Keycode.CONTROL, 'o']),
+        (0xCC5500, 'Save', [Keycode.CONTROL, 's']),
+        (0xCC5500, 'New', [Keycode.CONTROL, 'n'])
     ]
 }
